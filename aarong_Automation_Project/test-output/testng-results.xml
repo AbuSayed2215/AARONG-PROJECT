@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19296" started-at="2022-12-14T04:11:35Z" finished-at="2022-12-14T04:11:55Z">
+  <suite name="Default suite" duration-ms="33561" started-at="2023-01-26T23:11:46Z" finished-at="2023-01-26T23:12:20Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="19296" started-at="2022-12-14T04:11:35Z" finished-at="2022-12-14T04:11:55Z">
+    <test name="Default test" duration-ms="33561" started-at="2023-01-26T23:11:46Z" finished-at="2023-01-26T23:12:20Z">
       <class name="com.aarong.runner.runner$Runner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="setUpClass" is-config="true" duration-ms="338" started-at="2022-12-14T04:11:35Z" finished-at="2022-12-14T04:11:36Z">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="setUpClass" is-config="true" duration-ms="284" started-at="2023-01-26T23:11:46Z" finished-at="2023-01-26T23:11:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5f172d4a]]>
+                <![CDATA[org.testng.TestRunner@9b21bd3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="runScenario" duration-ms="14105" started-at="2022-12-14T04:11:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T04:11:50Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="runScenario" duration-ms="17000" started-at="2023-01-26T23:11:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-26T23:12:03Z">
           <params>
             <param index="0">
               <value>
@@ -34,51 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=108.0.5359.99)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RASELPC', ip: '192.168.1.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\abusa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f283950b9c3b89b2105f0cff0e7446b
-*** Element info: {Using=link text, value=USA}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=108.0.5359.99)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RASELPC', ip: '192.168.1.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\abusa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f283950b9c3b89b2105f0cff0e7446b
-*** Element info: {Using=link text, value=USA}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.aarong.stepDeffination.RandomClickSteps.user_will_see_the_shopping_home_page(RandomClickSteps.java:25)
-at ✽.User will see the shopping home page(file:///C:/Users/abusa/eclipse-workspace/aarong_Automation_Project/Feature/randomclick.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="runScenario" duration-ms="4284" started-at="2022-12-14T04:11:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T04:11:54Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="runScenario" duration-ms="15812" started-at="2023-01-26T23:12:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-26T23:12:19Z">
           <params>
             <param index="0">
               <value>
@@ -91,26 +50,24 @@ at ✽.User will see the shopping home page(file:///C:/Users/abusa/eclipse-works
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.JavascriptException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=108.0.5359.99)
+              <![CDATA[javascript error: Unable to find owning document
+  (Session info: chrome=109.0.5414.120)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RASELPC', ip: '192.168.1.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\abusa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 00ff82fc5a9d59a07b57fab9cc5238f8]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\abusa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eea30c24c9ef65fbb4999db805bbbb12]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=108.0.5359.99)
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Unable to find owning document
+  (Session info: chrome=109.0.5414.120)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RASELPC', ip: '192.168.1.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\abusa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 00ff82fc5a9d59a07b57fab9cc5238f8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\abusa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eea30c24c9ef65fbb4999db805bbbb12
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,16 +78,17 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.aarong.BaseC.Base.setUp(Base.java:25)
-at com.aarong.hooks.Hooks.initialize(Hooks.java:11)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)
+at com.aarong.stepDeffination.RandomClickSteps.user_type_the_store_location(RandomClickSteps.java:48)
+at ✽.User type the store location(file:///C:/Users/abusa/git/repository3/aarong_Automation_Project/Feature/randomclick.feature:9)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="tearDownClass" is-config="true" duration-ms="546" started-at="2022-12-14T04:11:54Z" finished-at="2022-12-14T04:11:55Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.aarong.runner.runner$Runner@fd07cbb]" name="tearDownClass" is-config="true" duration-ms="439" started-at="2023-01-26T23:12:19Z" finished-at="2023-01-26T23:12:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

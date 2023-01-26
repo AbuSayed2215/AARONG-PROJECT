@@ -20,14 +20,8 @@ public class Base {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		//driver.manage().getCookies();
+		driver.manage().getCookies();
 		//driver.get("https://www.aarong.com/");
 		driver.get("https://www.aarong.com/");
-		//driver.findElement(By.linkText("Customer Service")).click();
-		
-		
-	}
-	public static void main(String[] args) {
-		//Base.setUp();
 	}
 }
