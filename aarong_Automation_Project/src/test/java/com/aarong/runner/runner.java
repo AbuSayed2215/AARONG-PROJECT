@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 public class runner extends Base{
 	
 	@CucumberOptions(
-			features = {"Feature/randomclick.feature"},
+			features = {"Feature/"},
 			glue = {"com.aarong.stepDeffination","com.aarong.hooks"}, 
 			plugin = {"pretty","json:target/cucumber.json"},
 			dryRun = false,
